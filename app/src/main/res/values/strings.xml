@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">TelegaClon</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings_default_username">Rakhimzhan Yakubzhanov</string>
+    <string name="settings_default_status">Online</string>
+    <string name="settings_text_account">Account</string>
+    <string name="settings_default_number">+7 777 747 47 11</string>
+    <string name="settings_change_phone_number">Press, to change phone number!</string>
+    <string name="settings_default_login">Yacube</string>
+    <string name="settings_label_login">Username</string>
+    <string name="settings_default_bio">About me</string>
+    <string name="settings_label_bio">Write smth about yourself</string>
 </resources>

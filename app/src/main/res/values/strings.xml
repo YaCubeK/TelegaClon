@@ -12,5 +12,4 @@
     <string name="settings_label_login">Username</string>
     <string name="settings_default_bio">About me</string>
     <string name="settings_label_bio">Write smth about yourself</string>
-
 </resources>

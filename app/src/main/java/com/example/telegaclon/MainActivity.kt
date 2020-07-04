@@ -1,7 +1,9 @@
 package com.example.telegaclon
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.telegaclon.activities.RegisterActivity
 import com.example.telegaclon.ui.fragments.ChatsFragment
 import com.example.telegaclon.databinding.ActivityMainBinding
 import com.example.telegaclon.ui.objects.AppDrawer
@@ -28,13 +30,19 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initFunc() {
-        setSupportActionBar(mToolBar)
-        mAppDrawer.create()
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.dataContainer,
-                ChatsFragment()
-            ).commit()
+        if (false) {
 
+            setSupportActionBar(mToolBar)
+            mAppDrawer.create()
+            supportFragmentManager.beginTransaction()
+                .replace(
+                    R.id.dataContainer,
+                    ChatsFragment()
+                ).commit()
+        } else {
+            val intent = Intent(this,RegisterActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 
